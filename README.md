@@ -1,4 +1,7 @@
 # Sentiment_Analysis_comparing_strategies
+
+
+
 ## Aim of this work
 A comparison of different strategies for sentiment analysis is presented.
 The following models are selected for comparison:
@@ -39,8 +42,8 @@ Comparison of different embedding/vectorization techniques with traditional ML m
 |-|-|
 | SGD| 70.4% |
 |CNN| |
-| BERT| |
-|XLNET | 78.3%|      
+| BERT| 78.4%|
+|XLNET | 79.6%|      
 
 
 
