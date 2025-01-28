@@ -6,8 +6,8 @@
 A comparison of different strategies for sentiment analysis is presented.
 The following models are selected for comparison:
 -	Machine learning (ML) traditional algorithms (Logistic regression, Random Forest, Stochastic Gradient Descent and Bernoulli Naive Bayes);
--	Deep learning networks (CNN);
--	Transformers (BERT (base) and XLNET (base)).
+-	Deep learning networks (Naive architecture, CNN);
+-	Transformers (**BERT** (base) and **XLNET** (base)).
 
 In order to ascertain the most efficacious embedding/vectorization technique, a series of models were subjected to rigorous testing.
 Vectorisation:
@@ -36,11 +36,12 @@ In the present study, the following machine learning algorithms were tested.
 - Stochastic Gradient Descent (SGD)
 - Bernoulli Naive Bayes
 The following section will present the results obtained from the different vectorization/embedding implementations of the optimal algorithm: SGD.
+
 | | Accuracy | (optimum) ML algorithm | 
 |-|-|-| 
-| Embedding (w2vec-training data)|  48%    | SGD | 
-| Embedding (w2vec pre-trained)|    64%    | SGD |
-| **CountVectorizer** |                **70.4%**   | **SGD** |
+| Embedding (w2vec-training data) |  48%    | SGD | 
+| Embedding (w2vec pre-trained) |    64%    | SGD |
+| **CountVectorizer** |   **70.4%**   | **SGD** |
 | TF-IDF Vectorizer|               70.3%    | SGD |
 
 
