@@ -29,7 +29,13 @@ It is important to note that all of the datasets were **balanced**, and the sent
 
 ## Evaluation metric and results
 The **accuracy** score is utilised as the metric for evaluation.
-Comparison of different embedding/vectorization techniques with traditional ML models.
+Comparison of different embedding/vectorization techniques with **traditional ML models**.
+In the present study, the following machine learning algorithms were tested.
+- Logistic regression,
+- Random Forest,
+- Stochastic Gradient Descent (SGD)
+- Bernoulli Naive Bayes
+The following section will present the results obtained from the different vectorization/embedding implementations of the optimal algorithm: SGD.
 | | Accuracy | (optimum) ML algorithm | 
 |-|-|-| 
 | Embedding (w2vec-training data)|  48%    | SGD | 
@@ -38,14 +44,14 @@ Comparison of different embedding/vectorization techniques with traditional ML m
 | TF-IDF Vectorizer|               70.3%    | SGD |
 
 
-| | Accuracy | 
-|-|-|
-| SGD| 70.4% |
-|CNN| |
-| BERT| 78.4%|
-|XLNET | 79.6%|      
+In the following section, the concluding results of the study will be presented.
+| | Vectorization/embedding| Accuracy | 
+|-|-|-|
+| SGD| Vectorization|70.4% |
+| Naive Deep Learning (15epochs)| Embedding (sentence transformer)| 70.3%|
+|CNN (5epochs) |Embedding (sentence transformer)| 69.3%|
+| BERT| Embedding(token embedding + sentence embedding + positional encoding)| 78.4%|
+|**XLNET** |Embedding (token embedding + sentence embedding + positional encoding) | **79.6%**|      
 
 
 
-# Bibliography
-[](file:///home/profpao/Scaricati/SA_article.pdf)
