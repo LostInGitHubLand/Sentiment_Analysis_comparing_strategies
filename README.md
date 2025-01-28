@@ -6,12 +6,13 @@ It is possible to install all the necessary dependencies for a given virtual env
 
 ## Aim of this work
 A comparison of different strategies for sentiment analysis is presented.
+
 The following models are selected for comparison:
 -	Machine learning (ML) traditional algorithms (Logistic regression, Random Forest, Stochastic Gradient Descent and Bernoulli Naive Bayes);
 -	Deep learning networks (Naive architecture, CNN);
 -	Transformers (**BERT** (base) and **XLNET** (base)).
 
-In order to ascertain the most efficacious embedding/vectorization technique, a series of models were subjected to rigorous testing.
+In order to ascertain the most efficacious embedding/vectorization technique, a series of models were subjected to testing.
 Vectorisation:
 - Count Vectorisation
 - TF-IDF
