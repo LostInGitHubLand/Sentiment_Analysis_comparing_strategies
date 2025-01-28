@@ -1,7 +1,7 @@
 # Sentiment_Analysis_comparing_strategies
 
 # Reccomandation
-Download from this [link] (https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g) the GoogleNews vectors negative 300 binary file.
+Download from this [link](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g) the GoogleNews vectors negative 300 binary file.
 It is possible to install all the necessary dependencies for a given virtual environment using the **requirements.txt** file.
 
 ## Aim of this work
