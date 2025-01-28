@@ -39,7 +39,7 @@ The following section will present the results obtained from the different vecto
 | | Accuracy | (optimum) ML algorithm | 
 |-|-|-| 
 | Embedding (w2vec-training data)|  48%    | SGD | 
-| Embedding (w2vec pre-trained)|    64%    | SGD |||
+| Embedding (w2vec pre-trained)|    64%    | SGD |
 | **CountVectorizer** |                **70.4%**   | **SGD** |
 | TF-IDF Vectorizer|               70.3%    | SGD |
 
