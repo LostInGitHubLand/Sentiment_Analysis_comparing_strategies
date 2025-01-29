@@ -38,6 +38,7 @@ In the present study, the following machine learning algorithms were tested.
 - Random Forest,
 - Stochastic Gradient Descent (SGD)
 - Bernoulli Naive Bayes
+  
 The following section will present the results obtained from the different vectorization/embedding implementations of the optimal algorithm: SGD.
 
 | | Accuracy | (optimum) ML algorithm | 
