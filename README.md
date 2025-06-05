@@ -37,6 +37,7 @@ In order to ascertain the most efficacious embedding/vectorization technique, a 
 The dataset employed for the purpose of establishing a benchmark is as follows: [dataset](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset/data)
 The objective of the preliminary data processing stage was to generate a cleaned training, testing and validation dataframe. 
 It is important to note that all of the datasets were **balanced**, and the sentiment analysis involved **three** categories: negative, neutral and positive.
+
 ![image](https://github.com/user-attachments/assets/0e2f86fa-1d4c-4408-95d8-24b5c95d4d8a)
 
 
