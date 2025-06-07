@@ -6,11 +6,11 @@ It is possible to install all the necessary dependencies for a given virtual env
 
 *Example*. Setting the enviroment using **virtualenv** (linux user).
 
-`virtualenv -p /usr/bin/python3.12 sa_env`
+`virtualenv -p /usr/bin/python3.12 my_env`
 
 Then activate the env
 
-`sa_env activate`
+`source my_env/bin/activate`
 
 Finally install packages
 
