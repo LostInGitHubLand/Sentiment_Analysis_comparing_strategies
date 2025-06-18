@@ -34,8 +34,11 @@ In order to ascertain the most efficacious embedding/vectorization technique, a 
       - pretrained version on Google-300-news
 
 ## Dataset
-The dataset employed for the purpose of establishing a benchmark is as follows: [dataset](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset/data)
-The objective of the preliminary data processing stage was to generate a cleaned training, testing and validation dataframe. 
+The datasets employed are: 
+- [a Kaggle dataset - twitter posts](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset/data)
+- [a Figshare dataset - twitter posts](https://figshare.com/articles/dataset/Twitter_dataset/28390334)
+- 
+The objective of the preliminary data processing stage was to generate a **cleaned** training, testing and validation dataframe. 
 It is important to note that all of the datasets were **balanced**, and the sentiment analysis involved **three** categories: negative, neutral and positive.
 
 ![image](https://github.com/user-attachments/assets/0e2f86fa-1d4c-4408-95d8-24b5c95d4d8a)
@@ -60,20 +63,20 @@ The following section will present the results obtained from the different vecto
 
 | | Accuracy | (optimum) ML algorithm | 
 |-|-|-| 
-| Embedding (w2vec-training data) |  48%    | SGD | 
-| Embedding (w2vec pre-trained) |    64%    | SGD |
-| **CountVectorizer** |   **70.4%**   | **SGD** |
-| TF-IDF Vectorizer|               70.3%    | SGD |
+| Embedding (w2vec-training data) |  49%    | SGD | 
+| Embedding (w2vec pre-trained) |    69.7%    | SGD |
+| CountVectorizer |   69.8%**   | SGD |
+| **TF-IDF Vectorizer**|               **70.3%**    | SGD |
 
 
 In the following section, the concluding results of the study will be presented.
 | | Vectorization/embedding| Accuracy | 
 |-|-|-|
 | SGD| Vectorization|70.4% |
-| Naive Deep Learning (15epochs)| Embedding (sentence transformer)| 70.3%|
-|CNN (5epochs) |Embedding (sentence transformer)| 69.3%|
-| BERT| Embedding(token embedding + sentence embedding + positional encoding)| 78.4%|
-|**XLNET** |Embedding (token embedding + sentence embedding + positional encoding) | **79.6%**|      
+| Naive Deep Learning (15epochs)| Embedding (sentence transformer)| 70.4%|
+|CNN (5epochs) |Embedding (sentence transformer)| 69.9%|
+| BERT| Embedding(token embedding + sentence embedding + positional encoding)| 77.9%|
+|**XLNET** |Embedding (token embedding + sentence embedding + positional encoding) | **79.8%**|      
 
 
 
