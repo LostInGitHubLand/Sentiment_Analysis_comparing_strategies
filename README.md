@@ -37,7 +37,7 @@ In order to ascertain the most efficacious embedding/vectorization technique, a 
 The datasets employed are: 
 - [a Kaggle dataset - twitter posts](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset/data)
 - [a Figshare dataset - twitter posts](https://figshare.com/articles/dataset/Twitter_dataset/28390334)
-- 
+
 The objective of the preliminary data processing stage was to generate a **cleaned** training, testing and validation dataframe. 
 It is important to note that all of the datasets were **balanced**, and the sentiment analysis involved **three** categories: negative, neutral and positive.
 
