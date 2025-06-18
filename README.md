@@ -41,7 +41,8 @@ The datasets employed are:
 The objective of the preliminary data processing stage was to generate a **cleaned** training, testing and validation dataframe. 
 It is important to note that all of the datasets were **balanced**, and the sentiment analysis involved **three** categories: negative, neutral and positive.
 
-![image](https://github.com/user-attachments/assets/0e2f86fa-1d4c-4408-95d8-24b5c95d4d8a)
+![image](https://github.com/user-attachments/assets/85872052-0ea0-4a69-b5ce-0a8b2d603879)
+
 
 
 ## Sentiment Analysis
