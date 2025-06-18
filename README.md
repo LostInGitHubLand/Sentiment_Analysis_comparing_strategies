@@ -73,7 +73,7 @@ The following section will present the results obtained from the different vecto
 In the following section, the concluding results of the study will be presented.
 | | Vectorization/embedding| Accuracy | 
 |-|-|-|
-| SGD| Vectorization|70.4% |
+| SGD| Vectorization|70.3% |
 | Naive Deep Learning (15epochs)| Embedding (sentence transformer)| 70.4%|
 |CNN (5epochs) |Embedding (sentence transformer)| 69.9%|
 | BERT| Embedding(token embedding + sentence embedding + positional encoding)| 77.9%|
