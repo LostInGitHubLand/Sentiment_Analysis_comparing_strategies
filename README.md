@@ -60,24 +60,24 @@ In the present study, the following machine learning algorithms were tested.
 - Stochastic Gradient Descent (SGD)
 - Bernoulli Naive Bayes
   
-The following section will present the results obtained from the different vectorization/embedding implementations of the optimal algorithm: SGD.
+The following section will present the results obtained from the different vectorization/embedding implementations of the optimal algorithms: SGD and MultinomialNB.
 
 | | Accuracy | (optimum) ML algorithm | 
 |-|-|-| 
-| Embedding (w2vec-training data) |  49%    | SGD | 
-| Embedding (w2vec pre-trained) |    69.7%    | SGD |
-| CountVectorizer |   69.8%**   | SGD |
-| **TF-IDF Vectorizer**|               **70.3%**    | SGD |
+| Embedding (w2vec-training data) |  58%    | SGD | 
+| Embedding (w2vec pre-trained) |    63.0%    | SGD |
+| **CountVectorizer** |   **72.4%**   | **MultinomialNB** |
+| **TF-IDF Vectorizer**|               **72.4%**    | **MultinomialNB** |
 
 
 In the following section, the concluding results of the study will be presented.
 | | Vectorization/embedding| Accuracy | 
 |-|-|-|
-| SGD| Vectorization|70.3% |
+| MNB| Vectorization|72.4% |
 | Naive Deep Learning (15epochs)| Embedding (sentence transformer)| 70.4%|
 |CNN (5epochs) |Embedding (sentence transformer)| 69.9%|
 | BERT| Embedding(token embedding + sentence embedding + positional encoding)| 77.9%|
-|**XLNET** |Embedding (token embedding + sentence embedding + positional encoding) | **79.8%**|      
+|**XLNET** |Embedding (token embedding + sentence embedding + positional encoding) | **80.5%**|      
 
 
 
