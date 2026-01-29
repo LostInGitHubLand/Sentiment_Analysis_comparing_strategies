@@ -24,7 +24,7 @@ The following models are selected for comparison:
 -	Deep learning networks (Naive architecture, CNN);
 -	Transformers (**BERT** (base) and **XLNET** (base)).
 
-In order to ascertain the most efficacious embedding/vectorization technique, a series of models were subjected to testing.
+The following embedding are selected for comparison
 - Vectorisation:
     - Count Vectorisation
     - TF-IDF
@@ -39,7 +39,7 @@ The datasets employed are:
 - [a Figshare dataset - twitter posts](https://figshare.com/articles/dataset/Twitter_dataset/28390334)
 
 The objective of the preliminary data processing stage was to generate a **cleaned** training, testing and validation dataframe. 
-It is important to note that all of the datasets were **balanced**, and the sentiment analysis involved **three** categories: negative, neutral and positive.
+It is important to note that all of the datasets were **balanced**, duplicates have been removed and the sentiment analysis involved **three** categories: negative, neutral and positive.
 
 ![image](https://github.com/user-attachments/assets/85872052-0ea0-4a69-b5ce-0a8b2d603879)
 
